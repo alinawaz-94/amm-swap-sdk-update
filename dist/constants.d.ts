@@ -8,17 +8,13 @@ export declare enum TradeType {
     EXACT_INPUT = 0,
     EXACT_OUTPUT = 1
 }
-
 export declare enum Rounding {
     ROUND_DOWN = 0,
     ROUND_HALF_UP = 1,
     ROUND_UP = 2
 }
-
-
-
-export declare const FACTORY_ADDRESS = "0x3204B614a35a28E504Df9A47b61564109fEb9343";
-export declare const INIT_CODE_HASH = "0x8d2c07f52b8c3acda3f4f597cc6be08584d69bc601203d4150b884a8e527be24";
+export declare const FACTORY_ADDRESS = "0x46473750BB11908bC34406180a98fb5145826DA4";
+export declare const INIT_CODE_HASH = "0xde199995d0610f4411dcdec18aca756d9197cbd646098ad886a67f2914d13e55";
 export declare const MINIMUM_LIQUIDITY: JSBI;
 export declare const ZERO: JSBI;
 export declare const ONE: JSBI;
@@ -33,9 +29,6 @@ export declare enum SolidityType {
     uint8 = "uint8",
     uint256 = "uint256"
 }
-
-
-
 export declare const SOLIDITY_TYPE_MAXIMA: {
     uint8: JSBI;
     uint256: JSBI;
